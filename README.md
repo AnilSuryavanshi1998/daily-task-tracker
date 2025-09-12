@@ -1,12 +1,31 @@
-# React + Vite
+# 📝 Daily Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React + Vite** project to track daily tasks with features like **priority, due dates, dark mode, drag & drop, search, filter, and progress tracking**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, edit, and delete tasks
+- Set task priority: High, Medium, Low
+- Add due dates and highlight overdue tasks
+- Toggle tasks as completed
+- Filter tasks by status (All / Completed / Pending)
+- Sort tasks by priority
+- Search tasks
+- Dark mode support
+- Drag & drop to reorder tasks
+- Progress bar showing % of tasks completed
+- Data is persisted in `localStorage`
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** for frontend
+- **Vite** for bundling
+- **Tailwind CSS** for styling
+- **Framer Motion** for animations
+
+## Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/AnilSuryavanshi1998/daily-task-tracker.git
+
